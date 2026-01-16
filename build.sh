@@ -7,7 +7,7 @@ DISK_IMAGE_NAME=arch-linux-arm-sp11.img
 DISK_IMAGE_SIZE_MB=6144
 
 KERNEL_GIT_REPO=https://github.com/dwhinham/kernel-surface-pro-11
-KERNEL_GIT_BRANCH=x1e80100-6.19-rc1-sp11
+KERNEL_GIT_BRANCH=x1e80100-6.18-rc7-sp11
 # If "rc" in the branch name then take the config from the ALARM -rc package
 if [[ $KERNEL_GIT_BRANCH == *rc* ]]; then
 	KERNEL_BASE_CONFIG_URL=https://raw.githubusercontent.com/archlinuxarm/PKGBUILDs/master/core/linux-aarch64-rc/config
