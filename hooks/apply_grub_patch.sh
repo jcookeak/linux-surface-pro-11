@@ -9,7 +9,7 @@ patch /etc/grub.d/10_linux << 'EOF2'
  EOF
 +
 +  #BEGIN Surface Pro 11
-+  echo "	devicetree /boot/dtbs/${version}/qcom/x1-microsoft-denali.dtsi" | sed "s/^/$submenu_indentation/"
++  echo "	devicetree /boot/dtbs/${version}/qcom/x1e80100-microsoft-denali-oled.dts" | sed "s/^/$submenu_indentation/"
 +  #END Surface Pro 11
 +
    if test -n "${initrd}" ; then
